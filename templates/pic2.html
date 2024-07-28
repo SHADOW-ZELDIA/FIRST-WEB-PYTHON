@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Page</title>
+    <style>
+        body {
+            background-color: #ff5e5ee2; /* Light blue background */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .button {
+            background-color: #76fffa; /* Green background */
+            border: none;
+            color: rgb(0, 68, 255);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #01e6e6; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <form action="/button1-clicked" method="get">
+        <button type="submit" class="button">Button 1</button>
+    </form>
+
+    <form action="/button2-clicked" method="get">
+        <button type="submit" class="button">Button 2</button>
+    </form>
+
+</body>
+</html>
